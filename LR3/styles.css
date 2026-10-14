@@ -1,0 +1,21 @@
+h1 , h2 {   color: #333 ;   text-align: center; }
+.me { color: red; }
+body {   background-color: #D3D3D3 ;   font-family: Arial, sans-serif;   line-height: 1.6 ; }
+p {   color: #555 ;   padding: 10px ; }
+button {   background-color: #007bff ;   color: white;   padding: 10px   20px ;   border: none;   border-radius: 5px ; }  button :hover {   background-color: #0056b3 ; }
+.prbody {
+     background-image: url("xp.jpg");
+ }
+li {   color: #000000 ;   text-align: center;  }
+.round{
+    border-radius: 100px;
+    margin: auto;
+}
+.projects{
+    text-shadow: 2px 2px;
+}
+.p{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}

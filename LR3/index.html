@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Та самая страница</title>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li> <a href="index.html"> Главная страница.</a>
+        </li>
+        <li> <a href="projects.html"> Мои проекты.</a>
+        </li>
+    </ul>
+</nav>
+<hr>
+<header>
+    <img src=Ustraivaet.jpg alt="Описание" class="round"   style="width: 35%; height: 100%; object-fit: cover;">
+</header>
+<hr>
+<h1>Обо мне:</h1>
+<p class="me">Томарев Михаил.</p>
+<hr>
+<h2>Мои интересы:</h2>
+<ul>
+    <li>Чтение книг.</li>
+    <li>Перевод всякого.</li>
+    <li>Программирование.</li>
+</ul>
+<hr>
+<button id = "myBtn" >Нажми меня</button>
+<button id = "myBtn2">Плюс клик</button>
+<h2>Связаться со мной:</h2>
+<form action="send.php" method="post">
+    <label> Имя:<input type="text" name="name"  requeried></label>
+
+    <label> Email:<input type="email" name="email"
+                         requeried></label>
+    <h1></h1>
+    <label>
+    <textarea name="message" rows="4"
+              placeholder="Ваше сообщение"></textarea>
+    </label>
+    <button> Отправить</button>
+</form>
+<script src="script.js"></script>
+</body>
